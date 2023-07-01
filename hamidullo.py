@@ -10,3 +10,4 @@
 # else:
 #     print("soningiz 0-dan kichkina yoki 30-dan katta")
 # print(answer)
+
