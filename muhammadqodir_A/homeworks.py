@@ -19,3 +19,4 @@
 #     print("Yaxshi")
 # else :
 #     print("iltimos matn kiriting!")
+print(5)
