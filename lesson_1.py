@@ -1,7 +1,4 @@
 # print("Hello world !")
-# print("Hello world !")
-# print("Hello world !")
-
 
 # Interpretator - koddagi sintaksis xatolarni tekshirish 
 # Compilator - kodni mashina tiliga ogirish
@@ -24,3 +21,18 @@
 
 
 # Data structure - Ma'lumotlar tuzilmasi
+
+# variable - o'zgaruvchi bu xotira katachasiga olib boruvchi manzil
+
+
+# def main(x):
+#     return x ** 2
+
+# print(main(2)) # 4
+
+# print(main)  # <function main at 0x000001A5F4968B80>
+
+# name = "John"
+# x = 23
+# y = 14
+# print(x + y)
