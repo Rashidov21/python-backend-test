@@ -27,11 +27,11 @@
 # input >> 'keldizku'
 # output >> k,e,l,d,i,z
 
-text = input("Matn kirit \n")
-i = 0
-while i <= (len(text) - 1):
-    print(text[i])
-    i += 1
-    if text[i] == "z":
-        break
-    
+# text = input("Matn kirit \n")
+# i = 0
+# while i <= (len(text) - 1):
+#     print(text[i])
+#     i += 1
+#     if text[i] == "z":
+#         break
+
