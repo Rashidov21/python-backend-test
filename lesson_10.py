@@ -49,9 +49,9 @@
 # task 
 # 1 dan 10 gacha bolgan sonlarni kvadratlaridan iborat list hosil qiling 
 
-arr = []
-for i in range(1,11):
-    arr.append(i ** 2)
-print(arr) # [1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
+# arr = []
+# for i in range(1,11):
+#     arr.append(i ** 2)
+# print(arr) # [1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
 
-print([x ** 2 for x in range(1,11)]) # [1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
+# print([x ** 2 for x in range(1,11)]) # [1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
