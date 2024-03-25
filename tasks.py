@@ -36,17 +36,17 @@
 #         break
 #***** task 1 ******
 # 10 ta 2 xonalik butun son berilgan ulardan faqat 0 bilan tugaganlarini summasini hisoblang
-import random 
-nums = []
-for i in range(10):
-    nums.append(random.randint(10,99))
+# import random 
+# nums = []
+# for i in range(10):
+#     nums.append(random.randint(10,99))
 
-print(nums)
-summa = 0
-for x in nums:
-    if str(x)[1] == "0":
-        summa += x 
-print(summa)
+# print(nums)
+# summa = 0
+# for x in nums:
+#     if str(x)[1] == "0":
+#         summa += x 
+# print(summa)
     
 
 
@@ -56,7 +56,24 @@ print(summa)
 # output:1 437 239 000
 
 #***** task 3 ******
-# a = [1, 2, 4, 65, 8, 8, 6, 2, 6, 2, 2, 3]
-# b = [4, 5, 65, 7, 98, 5, 12, 2, 65, 89, 47]
+a = [1, 2, 4, 65, 8, 8, 6, 2, 6, 2, 2, 3]
+b = [4, 5, 65, 7, 98, 5, 12, 2, 65, 89, 47]
+result = []
 # ushbu massivlarda ishtirok etgan sonlardan iborat massiv hosil qiling
-# hosil bo'lgan massivda faqat sondan bitta bo'lishi kerak , ya'ni massiv elementlari
+# hosil bo'lgan massivda faqat sondan bitta bo'lishi kerak 
+
+for i in a:
+    if i in b:
+        if i in result:
+            print("Bor")
+        else:
+            result.append(i)
+print(result) # [2, 4, 65]
+
+
+# task 11
+# User kiritgan qatorda nechi marta “A” harfi ishtirok etganini hisoblang , agar “A” harfi qator boshidan boshlab 3 martadan kop ishtirok etsa u xolda barcha qolgan “A” harflarini “E” harfiga o’zgartiring
+
+# >>>ananasga
+# >>>enenesge
+
