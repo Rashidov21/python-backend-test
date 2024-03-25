@@ -49,20 +49,56 @@
 
 # count - siz korsatgan elementni listda nechta ekanini qaytaradi
 
-arr = [1,22,3,1,54,3,21,1,3,1,2]
-print(arr.count(1))# 4
+# arr = [1,22,3,1,54,3,21,1,3,1,2]
+# print(arr.count(1))# 4
 
-print("ananas".count("a")) # 3
+# print("ananas".count("a")) # 3
 
 # any - listni qabul qilib ichida bir dona bo'lsa ham True qiymat bo'lsa True aks holda False qaytaradi
-a = [0,"",45,False]
-print(any(a)) # True
+# a = [0,"",45,False]
+# print(any(a)) # True
 
 # all - listni qabul qilib ichida barcha elementlar True bolsa True qaytaradi aks holda False 
-print(all([1,2,0])) # False
-print(all([1,2,3])) # True
+# print(all([1,2,0])) # False
+# print(all([1,2,3])) # True
 
 # reverse - listni teskari qilish 
-arr = [1,2,3]
-arr.reverse()
-print(arr) #[3, 2, 1]
+# arr = [1,2,3]
+# arr.reverse()
+# print(arr) #[3, 2, 1]
+
+# sort - list elementlarini saralash
+
+# arr = [1,22,3,1,54,3,21,1,3,1,2]
+# arr.sort()
+# print(arr) # [1, 1, 1, 1, 2, 3, 3, 3, 21, 22, 54]
+# arr.sort(reverse=True)
+# print(arr) # [54, 22, 21, 3, 3, 3, 2, 1, 1, 1, 1]
+
+# sorted - ketma-ketlik elementlarini saralash
+
+# students = [
+#     ["John","A",16],
+#     ["Mike","B",18],
+#     ["Sara","C",12],
+#     ["David","A",13],
+# ]
+
+# print(sorted(students,reverse=True, key=lambda item:item[2]))
+
+# text = "python"
+
+# sorted_text = sorted(text)
+# result = "".join(sorted_text)
+# print(result) # hnopty
+
+
+# print("".join(sorted(list(text)))) # hnopty
+
+# task 
+# 1 dan 50 gacha bolsan sonlar ichida 5 ta tasodify sondan iborat list hosil qiling 
+# va ularni kamayish tartibida saralab ekranga chiqaring 
+
+# task 
+# "Assalomu alaykum" - ushbu satr elementlarini alfavit harflari tartibida saralang
+# va barcha "a" harflarini o'chirib yuboring
