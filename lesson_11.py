@@ -98,7 +98,24 @@
 # task 
 # 1 dan 50 gacha bolsan sonlar ichida 5 ta tasodify sondan iborat list hosil qiling 
 # va ularni kamayish tartibida saralab ekranga chiqaring 
+import random
+nums = []
 
+for i in range(5):
+    n = random.randint(1,50)
+    nums.append(n)
+print(sorted(nums, reverse=True))
 # task 
 # "Assalomu alaykum" - ushbu satr elementlarini alfavit harflari tartibida saralang
 # va barcha "a" harflarini o'chirib yuboring
+
+# task 
+text = "Assalomu alaykum"
+text = sorted(list(text))
+result = []
+for i in text:
+    if i.lower() == "a":
+        continue
+    else:
+        result.append(i)
+print("".join(result))   # kllmmossuuy 
