@@ -56,19 +56,19 @@
 # output:1 437 239 000
 
 #***** task 3 ******
-a = [1, 2, 4, 65, 8, 8, 6, 2, 6, 2, 2, 3]
-b = [4, 5, 65, 7, 98, 5, 12, 2, 65, 89, 47]
-result = []
+# a = [1, 2, 4, 65, 8, 8, 6, 2, 6, 2, 2, 3]
+# b = [4, 5, 65, 7, 98, 5, 12, 2, 65, 89, 47]
+# result = []
 # ushbu massivlarda ishtirok etgan sonlardan iborat massiv hosil qiling
 # hosil bo'lgan massivda faqat sondan bitta bo'lishi kerak 
 
-for i in a:
-    if i in b:
-        if i in result:
-            print("Bor")
-        else:
-            result.append(i)
-print(result) # [2, 4, 65]
+# for i in a:
+#     if i in b:
+#         if i in result:
+#             print("Bor")
+#         else:
+#             result.append(i)
+# print(result) # [2, 4, 65]
 
 
 # task 11
@@ -76,4 +76,43 @@ print(result) # [2, 4, 65]
 
 # >>>ananasga
 # >>>enenesge
+
+# task 
+# n soni berilgan 0 dan n gacha bolgan barcha toq sonlardan iborat massiv hosil qiling
+# input : n = 7
+# output :[1,3,5]
+
+# tajribasiz 
+# n = 21
+# result = []
+# for i in range(n):
+#     if i % 2 == 1:
+#         result.append(i)
+# print(result) # [1, 3, 5, 7, 9, 11, 13, 15, 17, 19]
+
+# tajribali
+# print(list(range(1,n,2))) # [1, 3, 5, 7, 9, 11, 13, 15, 17, 19]
+
+# TASK
+# n ta elementdan tashkil topgan massivda faqat toq sonlarni chiqaruvchi va ularni sonini chiqaruvchi dasturc tuzing
+# input: [1,2,3,4,5]
+# output: 1,3,5 toqlar soni = 3
+# n = 13
+# l = list(range(1,n,2))
+# print(l)
+# print(len(l))
+
+# task 
+# n ta elementdan tashkil topgan massivda eng oxirgi elementdan 1 qiymat kichkina elementni ekranga chiqaring aga bunaqa son bolmasa 0 chiqsin 
+# input: [1,4,9,8,6]
+# output: 0
+# input: [1,4,7,2,5]
+# output: 4
+arr = [1,4,9,8,10]
+last_item = arr[-1]
+
+if last_item - 1 in arr:
+    print(last_item - 1)
+else:
+    print(0)
 
