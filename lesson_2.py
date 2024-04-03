@@ -41,7 +41,7 @@
 
 # str - belgilar ketma-ketligi 
 
-# text = "Python is better"
+text = "Python is better"
 # print(text[0]) # ketma-ketlikdagi 1-element
 # print(text[-1]) # ketma-ketlikdagi oxirgi element
 # print(len(text)) # belgilar sonini butun son qiymatida qaytaradi

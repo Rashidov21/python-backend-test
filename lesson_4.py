@@ -25,5 +25,7 @@ else:
     
 # if shart:
 #     agar shart True bo'lsa ishlaydigan kod
+# elif shart:
+#     agar shart True bo'lsa ishlaydigan kod
 # else:
 #     agar shart False bo'lsa ishlaydigan kod
