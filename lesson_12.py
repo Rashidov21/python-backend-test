@@ -138,5 +138,6 @@ summa = 0
 for i in products:
     summa += i.get("price")
 print(summa)
+
 # Ushbu 
 # dictdagi barcha tovarlarni umumiy summasini hisoblovchi dastur tuzing
