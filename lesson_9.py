@@ -9,16 +9,36 @@ import math , random
 # x = 12.6
 # print(round(x)) # 13
 
-# str_num = "123"
-# print(type(str_num)) # <class 'str'>
+str_num = "123"
+print(type(str_num)) # <class 'str'>
 # print(str_num + 2) # TypeError
 # print(str_num - 2) # TypeError
 # print(str_num / 2) # TypeError
-# print(str_num * 2) # 123123
-# print(int(str_num) * 2) # 246
+print(str_num * 10) # 123123
+print(int(str_num) * 2) # 246
+
+
+
+name = 'Yodgor'
+surname = 'Mirzokhidov'
+age = 15
+x = """
+Ism: {0}
+Familiyasi: {1}
+Yoshi: {2}
+""".format(name,surname,age)
+print(x)
+
+s = f"""
+Ism: {name}
+Familiyasi: {surname}
+Yoshi: {age}
+"""
+print(s)
+
 
 # print(int("123a")) #ValueError: invalid literal for int()
-# print(float("10")) # 10.0
+print(float("10")) # 10.0
 # print(round(12.1360000,3)) #12.136
 # print(round(12.1360000,2)) #12.13
 
@@ -29,22 +49,29 @@ import math , random
 # print(2 ** 10) # 1024
 # print(math.pow(2,10)) # 1024.0
 # print(math.pow(2,2)) # 4.0
-# print(abs(-12)) # 12
+print(abs(-12)) # 12
 
 
 
 # print(random.random()) # 0.006878593229109775 - 1 bilan 0 orasida tasodify son
 
-# print(random.randint(1,10))
-# print(random.choice("python"))
+# print(random.randint(1,1000))
+
+# d = ['Toshkent', 'Andijon','Andijon', 'Samarkand', 'Fargona', 'Namangan']
+# print(random.choice(d))
+# c = 'python'
+# for i in c:
+#     print(i)
 
 # text = "Assalomu alaykum"
-# print(random.sample(text,5)) # ['a', ' ', 'l', 'y', 'u']
+# print(random.sample(text,2)) # ['a', ' ', 'l', 'y', 'u']
+# random.shuffle(d)
+# print(d)
 
-l =[1,2,3,4,5]
-print(max(l)) # 5
-print(min(l)) # 1
-print(sum(l)) # 15
+# l =[1,2,3,4,5]
+# print(max(l)) # 5
+# print(min(l)) # 1
+# print(sum(l)) # 15
 
 # task 
 # userdan son qabul qiling uni 1 bilan 10 orasida tasodify bitta songa ko'paytiring
@@ -52,3 +79,4 @@ print(sum(l)) # 15
 
 # task
 # "python" so'zidan tasodify bitta belgini oling va uni 5 marta ko'paytrib chiqaring
+

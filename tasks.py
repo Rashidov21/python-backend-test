@@ -116,3 +116,6 @@ if last_item - 1 in arr:
 else:
     print(0)
 
+
+#Task uyga vazifa
+#input orqali ism qabul qilsin va uni harfligiga tekshirsin va qoshayotganda bosh harfini katta qilib qoshsin list ga 5 ta ism qabul qilib qoshadi shu royhatdan tasodifiy 3 ta odamni ismini hammasini katta harfda print qilib ekranga chiqaradi
