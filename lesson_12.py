@@ -7,6 +7,12 @@
 # print(t[2])# 3
 # t[2] = 5 # TypeError: 'tuple' object does not support item assignment
 
+# t = (1,2,3,4,5)
+# l = list(t)
+# l[2] = 8
+# t = tuple(l)
+# print(t)
+
 
 # set - unikal tartibsiz elementlar ko'pligi
 # s = set()

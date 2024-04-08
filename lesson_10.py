@@ -17,7 +17,6 @@
 # arr = [1,2,3,4,5]
 # print(arr[10]) # IndexError: list index out of range
 
-# a,b,c = 1,2,3
 # x,y,*z = [1,2,3,4,5]
 # print(x,y,z) # 1 2 [3, 4, 5]
 
