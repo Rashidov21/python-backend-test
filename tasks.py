@@ -119,3 +119,10 @@ else:
 
 #Task uyga vazifa
 #input orqali ism qabul qilsin va uni harfligiga tekshirsin va qoshayotganda bosh harfini katta qilib qoshsin list ga 5 ta ism qabul qilib qoshadi shu royhatdan tasodifiy 3 ta odamni ismini hammasini katta harfda print qilib ekranga chiqaradi
+
+# print([i + i if i in "aiuoe" else i for i in "salom"])
+# print("".join([i + i if i in "aiuoe" else i for i in "salom"]))
+
+
+# a = [i for i in range(10) if i % 2 == 0]
+# print(a) # [0, 2, 4, 6, 8]

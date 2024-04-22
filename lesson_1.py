@@ -24,3 +24,9 @@
 
 
 # Data structure - Ma'lumotlar tuzilmasi
+
+x = 10
+betta = "b"
+alpha = "a"
+d = 1
+z = 2
