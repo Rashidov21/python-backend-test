@@ -1,10 +1,10 @@
-import random
-import time 
-import datetime
+# import random
+# import time 
+# import datetime
 
-from bs4 import BeautifulSoup
+# from bs4 import BeautifulSoup
 
-from work_with_functions import super_func
+# from work_with_functions import super_func
 
 
 # *** - hardoim kodni eng birinchi qatorlarida standart kutubxonlar yuklanadi

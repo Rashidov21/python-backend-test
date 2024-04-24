@@ -6,14 +6,14 @@
 # print() - 3 verisiya 
 
 # print("salom" + 10) # TypeError: can only concatenate str (not "int") to str
-try:
-    print("salom" + 10)
-except Exception as error:
-    print(f"Xato bor ! {error}")
-else:
-    print("Xatolik yoq, davom etish mumkin.")
-finally:
-    print("Xato bormi yoqmi farqi yoq ishlayi")
+# try:
+#     print("salom" + 10)
+# except Exception as error:
+#     print(f"Xato bor ! {error}")
+# else:
+#     print("Xatolik yoq, davom etish mumkin.")
+# finally:
+#     print("Xato bormi yoqmi farqi yoq ishlayi")
 
 
 # try:
@@ -24,3 +24,4 @@ finally:
 #     xatolik bolmasa ishlaydigan kod 
 # finally:
 #     xato bormi yoqmi farqi yoq ishlayidigan kod
+

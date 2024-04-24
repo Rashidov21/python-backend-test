@@ -1,14 +1,14 @@
 # time - vaqt uchun 
 # datetime - sana va vaqt 
-import datetime
-import time
-import calendar
+# import datetime
+# import time
+# import calendar
 # Dasturni o'zbek tiliga olish 
-import locale
-locale.setlocale(locale.LC_ALL, "uz-UZ")
+# import locale
+# locale.setlocale(locale.LC_ALL, "uz-UZ")
 
 # joriy sana va vaqtni olish 
-_now = datetime.datetime.now()
+# _now = datetime.datetime.now()
 # print(_now) #2024-04-08 15:59:06.141114
 # for action in dir(_now):
 #     print(action)
@@ -61,5 +61,5 @@ _now = datetime.datetime.now()
 # c = calendar.TextCalendar()
 # print(c.formatyear(2024))
 # print(c.formatmonth(theyear=2024,themonth=4))
-html_calendar = calendar.HTMLCalendar()
-print(html_calendar.formatyear(theyear=2024))
+# html_calendar = calendar.HTMLCalendar()
+# print(html_calendar.formatyear(theyear=2024))

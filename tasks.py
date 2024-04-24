@@ -108,13 +108,13 @@
 # output: 0
 # input: [1,4,7,2,5]
 # output: 4
-arr = [1,4,9,8,10]
-last_item = arr[-1]
+# arr = [1,4,9,8,10]
+# last_item = arr[-1]
 
-if last_item - 1 in arr:
-    print(last_item - 1)
-else:
-    print(0)
+# if last_item - 1 in arr:
+#     print(last_item - 1)
+# else:
+#     print(0)
 
 
 #Task uyga vazifa
@@ -126,3 +126,37 @@ else:
 
 # a = [i for i in range(10) if i % 2 == 0]
 # print(a) # [0, 2, 4, 6, 8]
+
+import datetime
+import time
+# task 1 
+# Taymer qilinadi misol inputdan minut qabul qiladi  5 minut misol 5 minut otgandan kegin vaqt tugadi deb print qilsin har sekund print bolsin nech minut nech sekund qolganligini
+# m = 5
+# s = m * 60
+# for i in range(m):
+#     m -= 1
+#     sec = 60
+#     for x in range(1,60):
+#         sec -= 1
+#         print(f"{m}:{sec}")
+#         time.sleep(1)
+# task 2
+# Inputdan sana qabul qiladi va u bugungi sanadan katta boladi va inputdan kelgan sanagacha nech kun qolganini nech soat nech minut nech sekund qolganini hisoblasin
+# _now = datetime.datetime.now()
+# y = int(input("Year"))
+# m = int(input("Month"))
+# d = int(input("Day"))
+# h = int(input("Hour"))
+# mi = int(input("Minute"))
+# if _now.year < y and _now.month <= m:
+#     years = y - _now.year
+#     months = m - _now.month
+#     current_timeday = datetime.timedelta(days=_now.day, hours=_now.hour,minutes=_now.minute)
+#     print(f"{years} years , {months} months and", datetime.timedelta(days=d, hours=h,minutes=mi) - current_timeday)
+
+
+# date_ = "2024-04-24 , 16:15:30"
+# d = date_.split(",")
+# years = d[0].split("-")[0] # YYYY
+# hours = d[1].split(":")[0] # HH
+# print(years, hours)
