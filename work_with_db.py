@@ -49,3 +49,4 @@ cur = con.cursor()
 
 # data = cur.execute("SELECT name,point FROM students WHERE point = 3 ")
 # print(data.fetchall())
+# no data
